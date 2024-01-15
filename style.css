@@ -27,6 +27,8 @@ aside {
     justify-content: space-between;
 
     padding: 20px;
+
+    overflow-y: auto;
 }
 
 .aside-top {
