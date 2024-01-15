@@ -27,6 +27,10 @@ aside {
 main {
     width: calc(100% - 230px);
     height: 100%;
+    background-color: #141922;
+
+    overflow-y: auto;
+    padding: 90px 20px 20px;
 }
 
 .banner {
@@ -49,6 +53,25 @@ main {
     padding: 20px;
 }
 
+.filters {
+    width: 100%;
+
+    color: #7d7f84;
+
+    list-style-type: none;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: bold;
+
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 24px;
+
+    padding: 20px;
+    margin-bottom: 16px;
+}
+
 /* fine sezione main */
 
 /* inizio sezione footer */
@@ -64,10 +87,6 @@ footer {
 /* test */
 aside {
     background-color: red;
-}
-
-main {
-    background-color: green;
 }
 
 footer {
