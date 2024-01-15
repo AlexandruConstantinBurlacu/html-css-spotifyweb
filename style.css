@@ -76,6 +76,8 @@ h1 {
     color: white;
     padding-top: 36px;
     padding-bottom: 36px;
+
+    font-size: 18px;
 }
 
 .selector {
@@ -105,6 +107,21 @@ h1 {
 .album .title {
     margin-bottom: 10px;
     font-weight: bold;
+    font-size: 14px;
+}
+
+.artist , .foryou {
+    color: #7d7f84;
+    font-size: 10px;
+    font-weight: bold;
+}
+
+.foryou {
+    padding-bottom: 28px;
+}
+
+h1:last-of-type {
+    padding-bottom: 18px;
 }
 
 /* fine sezione main */
