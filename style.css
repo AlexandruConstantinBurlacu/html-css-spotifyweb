@@ -25,6 +25,8 @@ aside {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+
+    padding: 20px;
 }
 
 .aside-top {
@@ -96,6 +98,39 @@ aside {
     flex-direction: column;
     gap: 24px;
     max-height: calc(100% - 87px);
+}
+
+.aside-bottom {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 8px;
+    padding-top: 12px;
+}
+
+.aside-bottom a {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    text-decoration: none;
+}
+
+.aside-bottom .install-app {
+    margin-bottom: 10px;
+}
+
+.aside-bottom img {
+    width: 26px;
+    height: auto;
+    color: #7d7f84;
+}
+
+.aside-bottom hr {
+    margin-bottom: 14px;
+}
+
+.aside-bottom span {
+    font-weight: bold;
+    color: #7d7f84;
 }
 
 /* fine sezione aside */
