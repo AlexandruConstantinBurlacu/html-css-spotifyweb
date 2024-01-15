@@ -7,3 +7,51 @@
 body {
     font-family: sans-serif;
 }
+
+.explorer {
+    display: flex;
+    height: calc(100vh - 90px);
+}
+
+/* inizio sezione aside */
+
+aside {
+    width: 230px;
+    height: 100%;
+}
+
+/* fine sezione aside */
+
+/* inizio sezione main */
+
+main {
+    width: calc(100% - 230px);
+    height: 100%;
+}
+
+/* fine sezione main */
+
+/* inizio sezione footer */
+
+footer {
+    width: 100vw;
+    height: 90px;
+}
+
+
+
+
+/* test */
+aside {
+    background-color: red;
+}
+
+main {
+    background-color: green;
+}
+
+footer {
+    background-color: yellow;
+}
+
+/* fine test */
