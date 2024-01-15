@@ -29,6 +29,26 @@ main {
     height: 100%;
 }
 
+.banner {
+    height: 90px;
+    width: calc(100% - 230px);
+
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+
+    text-transform: uppercase;
+
+    position: fixed;
+    top: 0;
+    right: 0;
+
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+    padding: 20px;
+}
+
 /* fine sezione main */
 
 /* inizio sezione footer */
